@@ -12,17 +12,15 @@
 # Результат:
 Полиномиальная регрессия работает заметно лучше линейной решрессии. Ошибка равняетя  0,4 - 0,5%. 
 При вложении 149 денег на ТВ, 22 денег на радио и 12 денег на газету мы увеличим продажи на 14,65 едениц товара.
-
+```
 # Стек / основные инструменты
+
 import pandas as pd
-
 import numpy as np
-
 import matplotlib.pyplot as plt
-
 import seaborn as sns
 
 # ML инструменты
-from sklearn.model_selection import train_test_split
 
+from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
