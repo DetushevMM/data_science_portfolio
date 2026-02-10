@@ -1,1 +1,58 @@
+# Построение нейронной сети для предсказания цены автомобиля. 
 
+База данных основана на объявленияъ с сайта "Юла".
+
+Задачи:
+- Исследовать данные об автомобилях.
+- Построить нейроную сеть для регрессии.Глубокая полносвязная сеть с перцептроном.
+- Оценить качество работы созданной нейронной сети.
+- Определить средний процент ошибки на проверочной выборке. Для этого потребуется привести предсказанные моделью значения к первоначальному диапазону цен. Это можно сделать с помощью следующего метода: predict_inverse = y_scaler.inverse_transfrom(predict).flatten(), где predict - результат предсказания модели). 
+- Подсчитать ошибку на каждом примере тестовой выборки и суммарный процент ошибки.
+
+Рекомендации:
+
+- В качестве ошибки рекомендуется использовать среднеквадратическую ошибку (mse).
+- Метрику для данной задачи можно не использовать.
+- Последний слой модели должен иметь 1 нейрон.
+
+# Стек / Основные инструменты для анализа
+import numpy as np
+
+import pandas as pd
+
+import matplotlib.pyplot as plt
+
+from PIL import Image
+
+# ML инструменты
+
+from keras.models import Sequential  # НС прямого распространения
+
+from keras.layers import Dense, Activation, Dropout, BatchNormalization  # основные слои
+
+from keras import utils  # утилиты для to_categorical
+
+from keras.preprocessing import image  # Для отрисовки изображения
+
+from keras.optimizers import Adadelta, Adam  # Алгоритмы оптимизации для настройки скорости обучения
+
+from sklearn.preprocessing import LabelEncoder, StandardScaler  # Функции для нормализации данных
+
+from sklearn import preprocessing  # Пакет для предварительной обработки данных
+
+# Оцентка модели:	MAE/Средняя цена (ошибка) ~12.86%
+
+# Структура папок проекта
+
+│ car_price_model.h5 - # Сохраненная модель
+│ vocabulary.pkl - # Словари для категориальных признаков
+│ feature_order.pkl - # Порядок признаков
+│ predict.py - # Скрипт для предсказаний
+│ train.py - # Скрипт для обучения
+│
+└───scalers
+    │ year_scaler.pkl
+    │ mileage_scaler.pkl
+    │ volume_scaler.pkl
+    │ power_scaler.pkl
+    │ y_scaler.pkl
