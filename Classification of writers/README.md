@@ -13,7 +13,7 @@
 
 # Результат: 
 Embedding + Dense	accuracy = ~ 72%
-
+```
 # Стек / основные инструменты
 import numpy as np
 
