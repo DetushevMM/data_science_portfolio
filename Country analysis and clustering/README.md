@@ -34,7 +34,7 @@
  -  Agriculture
  -  Industry
  -  Service
-
+```
 # Стек / основные иснтрументы
 import pandas as pd
 
