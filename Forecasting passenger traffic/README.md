@@ -34,31 +34,23 @@
 MAE, RMSE, MAPE.
 
 Выяснить возможность построение совместной модели, связывающей пассажиров и продажи. Построить модель.
-
+```
 # стек / основные инструменты
 import pandas as pd
-
 import numpy as np
-
 import matplotlib.pyplot as plt
-
 import seaborn as sns
-
 from statsmodels.tsa.seasonal import seasonal_decompose
-
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-
 from statsmodels.tsa.stattools import adfuller
 
 
 # ML models
 
 from pmdarima import auto_arima
-
 from statsmodels.tsa.statespace.sarimax import SARIMAX
-
 from prophet import Prophet
-
+```
 
 ## Итог:
 
