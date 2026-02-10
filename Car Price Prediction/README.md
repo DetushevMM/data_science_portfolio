@@ -15,6 +15,7 @@
 - Метрику для данной задачи можно не использовать.
 - Последний слой модели должен иметь 1 нейрон.
 
+
 # Стек / Основные инструменты для анализа
 import numpy as np
 
@@ -23,6 +24,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from PIL import Image
+
 
 # ML инструменты
 
@@ -40,19 +42,8 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler  # Функции
 
 from sklearn import preprocessing  # Пакет для предварительной обработки данных
 
+
 # Оцентка модели:	MAE/Средняя цена (ошибка) ~12.86%
 
-# Структура папок проекта
 
-│ car_price_model.h5 - # Сохраненная модель
-│ vocabulary.pkl - # Словари для категориальных признаков
-│ feature_order.pkl - # Порядок признаков
-│ predict.py - # Скрипт для предсказаний
-│ train.py - # Скрипт для обучения
-│
-└───scalers
-    │ year_scaler.pkl
-    │ mileage_scaler.pkl
-    │ volume_scaler.pkl
-    │ power_scaler.pkl
     │ y_scaler.pkl
