@@ -24,7 +24,7 @@ Class — целевая переменная:
 Особое внимание требуется уделить:
 - Обработке несбалансированных классов, так как количество мошеннических транзакций крайне мало.
 - Выбору и оценке моделей, способных эффективно выявлять редкие, но критически важные случаи.
-
+```
 # Стек / основные инструменты анализа
 import numpy as np
 
@@ -51,7 +51,7 @@ from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
 
 from sklearn.model_selection import RandomizedSearchCV
-
+```
 # Вывод:
 
 - Если приоритет — точность (меньше ложных тревог): ➜ Random Forest
