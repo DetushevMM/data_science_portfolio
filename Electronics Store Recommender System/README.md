@@ -33,7 +33,7 @@ SVD (сингулярное разложение)
 
 # Оценка работы модели: 
 Item-Item + Collaborative Filtering -	RMSE = ~0.39 / MAE = ~0.20
-
+```
 
 # Стек / основные инструменты анализа
 import pandas as pd
