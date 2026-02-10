@@ -35,27 +35,20 @@ Oсновные характеристики датафрейма:
 Выбрана модель AdaBoost -	Recall = 0.91.
 
 В данной задаче следует рассмотреть другие методы, например опорных векторов или логистическую регрессию или провести работу с данными совместно с экспертом (feature engineering)
-
+```
 # Стек / основные инструменты
+
 import numpy as np
-
 import pandas as pd
-
 import matplotlib.pyplot as plt
-
 import seaborn as sns
 
 # ML инструменты
+
 from sklearn.model_selection import train_test_split
-
 from sklearn.tree import DecisionTreeClassifier
-
 from sklearn.metrics import ConfusionMatrixDisplay, classification_report
-
 from sklearn.tree import plot_tree
-
 from sklearn.ensemble import RandomForestClassifier
-
 from sklearn.ensemble import GradientBoostingClassifier, AdaBoostClassifier
-
 
