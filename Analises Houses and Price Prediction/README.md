@@ -10,7 +10,8 @@
 - Проведение поиска отимальных параметров по сетке
 - Обучение и оценка модели
 
-``` Стек / основные инструменты анализа
+```
+Стек / основные инструменты анализа
 import numpy as np
 
 import pandas as pd
@@ -20,7 +21,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-# ML инструменты
+ML инструменты
 
 from sklearn.model_selection import train_test_split
 
