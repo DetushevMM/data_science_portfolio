@@ -14,7 +14,7 @@
 Этот файл касается предложений кредитных карт. Все имена и значения атрибутов были изменены на бессмысленные символы для защиты конфиденциальности данных. Целевая переменная А16-«+/-».
 
 Этот набор данных интересен тем, что в нем есть хорошее сочетание атрибутов — непрерывных, номинальных с небольшим количеством значений, и номинальных - с большим количеством значений. Также есть несколько пропущенных значений.
-
+```
 # Стек / основные инструменты анализа:
 import pandas as pd
 
@@ -41,7 +41,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
-
+```
 # Оценка модели: 
 Logistic Regression - F1 score = 0.85.
 
