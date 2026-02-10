@@ -45,7 +45,7 @@ country - страна;
 region - регион в стране;
 world_region - часть света;
 geo - координаты (широта и долгота)
-
+```
 ## Стек / основные инструменты:
 
 import pandas as pd
@@ -55,7 +55,7 @@ import seaborn as sns
 import os
 import math
 import missingno as msno
-
+```
 ## Выводы
 Kiva играет важную роль в поддержке операционной деятельности для многих людей, часто заменяя частный банковский сектор.
 
