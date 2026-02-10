@@ -20,17 +20,15 @@
 # Результат
 f1-score 0.84. 
 Для класса 0 вероятность 99%, а для класса 1 веротность 0,0000001%
-
+```
 # Стек / основные инструменты
+
 import numpy as np
-
 import pandas as pd
-
 import seaborn as sns
-
 import matplotlib.pyplot as plt
 
 # ML инструменты
-from sklearn.model_selection import train_test_split
 
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
