@@ -39,11 +39,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from sklearn.ensemble import GradientBoostingRegressor, AdaBoostRegressor
 from sklearn.ensemble import RandomForestRegressor
-
 from sklearn.svm import SVR
-
 from sklearn.model_selection import GridSearchCV
-
 from sklearn.tree import DecisionTreeRegressor
-
 from sklearn.neighbors import KNeighborsRegressor
