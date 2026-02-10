@@ -17,18 +17,16 @@
 - CHANNEL - расходы за год на индустрию общественного питания Horeca или розничный канал Retail (категориальная переменная);
 - REGION - регион клиента (категориальная переменная);
 
-
+```
 # Стек / основыне инструменты
+
 import pandas as pd
-
 import numpy as np
-
 import seaborn as sns
-
 import matplotlib.pyplot as plt
 
 # ML инструменты
-from sklearn.cluster import DBSCAN
 
+from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import MinMaxScaler
 
