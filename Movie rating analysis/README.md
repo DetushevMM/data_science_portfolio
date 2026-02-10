@@ -3,15 +3,13 @@
 # Задача:
 Определить правдивость рейтингов фильмов сайта Fandango. Сравнить рейтинки других компаний и найти справедливые.
 Интерактивная визуализация с Plotly. Кластеризация фильмов.
-
+```
 # Стек / основные инструменты
- import numpy as np
- 
- import pandas as pd 
- 
- import matplotlib.pyplot as plt 
- 
- import seaborn as sns 
 
+ import numpy as np
+ import pandas as pd 
+ import matplotlib.pyplot as plt 
+ import seaborn as sns 
+```
 # Вывод:
 Fandango обманывает и накручивает рейтинги определенным фильмам.
