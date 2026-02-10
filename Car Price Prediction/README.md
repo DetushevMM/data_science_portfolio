@@ -15,7 +15,7 @@
 - Метрику для данной задачи можно не использовать.
 - Последний слой модели должен иметь 1 нейрон.
 
-
+```
 # Стек / Основные инструменты для анализа
 import numpy as np
 
@@ -41,7 +41,7 @@ from keras.optimizers import Adadelta, Adam  # Алгоритмы оптимиз
 from sklearn.preprocessing import LabelEncoder, StandardScaler  # Функции для нормализации данных
 
 from sklearn import preprocessing  # Пакет для предварительной обработки данных
-
+```
 
 # Оцентка модели:	MAE/Средняя цена (ошибка) ~12.86%
 
