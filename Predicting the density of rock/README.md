@@ -23,27 +23,21 @@
 Наша финальная модель - это SVR. 
 - MAE: 0.108
 - RMSE: 0.126
-
+```
 # Стек / основные инструменты
+
 import numpy as np
-
 import pandas as pd
-
 import matplotlib.pyplot as plt
-
 import seaborn as sns
 
 # ML инструменты
+
 from sklearn.model_selection import train_test_split
-
 from sklearn.pipeline import make_pipeline
-
 from sklearn.preprocessing import PolynomialFeatures
-
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-
 from sklearn.ensemble import GradientBoostingRegressor, AdaBoostRegressor
-
 from sklearn.ensemble import RandomForestRegressor
 
 from sklearn.svm import SVR
