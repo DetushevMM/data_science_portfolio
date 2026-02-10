@@ -26,43 +26,28 @@ https://archive.ics.uci.edu/dataset/332/online+news+popularity
 # Результат:
 - Silhouette Score для кластеризации на тестовой выборке: 0.5295.
 Результат в 0.5295 говорит о том, что кластеры не являются идеальными, но модель KMeans всё же нашла некоторую структуру в данных. Это может быть приемлемым результатом для некоторых типов данных, но также может свидетельствовать о том, что улучшение модели или изменение количества кластеров могло бы дать более чёткие результаты.
-
+```
 # Стек / основные инструменты
+
 import pandas as pd
-
 import numpy as np
-
 import seaborn as sns
-
 import matplotlib.pyplot as plt
 
 # ML инструменты 
+
 from sklearn.linear_model import Lasso
-
 from sklearn.preprocessing import StandardScaler
-
 from sklearn.decomposition import PCA
-
 from sklearn.tree import DecisionTreeRegressor
-
 from sklearn.manifold import TSNE
-
 from sklearn.cluster import KMeans
-
 from sklearn.metrics import silhouette_score
-
 from scipy.spatial.distance import cdist
-
 from sklearn.model_selection import train_test_split
-
 from sklearn.model_selection import GridSearchCV
-
 from sklearn.linear_model import LogisticRegression
-
 from sklearn.ensemble import RandomForestClassifier
-
 from sklearn.svm import SVC
-
 from sklearn.metrics import accuracy_score, classification_report
-
 from sklearn.model_selection import cross_val_score
