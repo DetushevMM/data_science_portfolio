@@ -30,27 +30,20 @@ Random Forest справляется с задачей не плохо.
 - MSE (Random Forest): 30.15
 - RMSE (Random Forest): 5.49
 - R² (Random Forest): 0.82
-
+```
 # Стек / онсновые инструменты
+
 import pandas as pd
-
 import numpy as np
-
 import seaborn as sns
-
 import matplotlib.pyplot as plt
 
-# ML инструменты 
+# ML инструменты
+
 from sklearn.model_selection import train_test_split, GridSearchCV
-
 from sklearn.preprocessing import StandardScaler
-
 from sklearn.linear_model import Ridge, Lasso, LinearRegression
-
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-
 from sklearn.preprocessing import PolynomialFeatures
-
 from sklearn.ensemble import RandomForestRegressor
-
 from sklearn.model_selection import RandomizedSearchCV
